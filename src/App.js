@@ -4,6 +4,8 @@ import HomePage from './pages/HomePage';
 import StorePage from './pages/StorePage';
 import './App.css';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 function App() {
   return (
     <BrowserRouter>

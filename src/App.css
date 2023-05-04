@@ -1,6 +1,14 @@
 .App {
   text-align: center;
 }
+
+.items-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
 nav {
   box-shadow: rgba(0,0,0, 0.08) 0 5px 8px;
 }
