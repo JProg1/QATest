@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-function Navbar() {
+export default function Navbar() {
     return (
         <nav>
             <h1>FLORISTS</h1>
@@ -14,5 +14,3 @@ function Navbar() {
         </nav>
     );
 }
-
-export default Navbar;

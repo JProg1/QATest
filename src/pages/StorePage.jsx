@@ -1,6 +1,6 @@
 import itemsData from '../itemsData.json';
 import { Card } from 'react-bootstrap';
-function StorePage() {
+export default function StorePage() {
     return (
         <div className="storePage">
             <h2>Store Page</h2>
@@ -21,4 +21,3 @@ function StorePage() {
         </div>
     );
 }
-export default StorePage;
