@@ -1,5 +1,7 @@
 import itemsData from '../itemsData.json';
 import { Card, Button } from 'react-bootstrap';
+// Utilising Bootstrap components instead of creating own components
+// Included Card and Button components to build the store page.
 export default function StorePage() {
     return (
         <div className="storePage">
