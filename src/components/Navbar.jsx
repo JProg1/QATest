@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 export default function Navbar() {
     return (
         <nav>
-            <h1>FLORISTS</h1>
+            <h1>THE BEST FLORISTS IN THE WORLD</h1>
             <ul>
                 <li>
                     <Link to="/">Home</Link>

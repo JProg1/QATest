@@ -1,5 +1,5 @@
 import itemsData from '../itemsData.json';
-import { Card } from 'react-bootstrap';
+import { Card, Button } from 'react-bootstrap';
 export default function StorePage() {
     return (
         <div className="storePage">
@@ -14,6 +14,7 @@ export default function StorePage() {
                         <Card.Text>
                         £{item.price}
                         </Card.Text>
+                        <Button variant="primary">Add to Cart</Button>
                     </Card.Body>
                     </Card>
                 ))}

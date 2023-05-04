@@ -19,7 +19,6 @@ nav h1 {
   background-color: #0b2025;
   color: #61dbfb;
 }
-
 nav ul {
   display: flex;
   align-items: center;
@@ -33,14 +32,14 @@ nav ul {
 nav p, a {
   margin: 0;
   color: #444444;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 nav a:hover {
-  text-decoration: underline;
+  text-decoration: underline !important;
 }
 
-main {
+.storePage {
   margin: 1rem;
   display: flex;
   flex-direction: column;
